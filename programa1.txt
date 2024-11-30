@@ -1,0 +1,22 @@
+programa
+{
+	funcao inicio ()
+	{
+		inteiro idade
+		escreva ("Qual a sua idade?")
+		leia(idade)
+	 se (idade <=12){
+	 	escreva("Você é criança!")}
+	 	senao se (idade<=17) {
+	 		escreva ("Você é adolescente!")}
+	 		senao se (idade<=64){
+	 			escreva ("Você é adulto!")
+	 		}
+	 	senao se (idade >=65)
+	 		escreva (" Você é idoso!")
+	 	}
+	 	
+	}	
+		
+	}
+}

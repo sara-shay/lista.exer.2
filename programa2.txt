@@ -1,0 +1,19 @@
+programa
+{
+	funcao inicio ()
+	{
+	real x, y, z
+	escreva ("Qual o tamanho do primeiro lado do triângulo?")
+	leia(x)
+	escreva ("Qual o tamanho do segundo lado do triângulo?")
+	leia(y)
+	escreva ("Qual o tamanho do terceiro lado do triângulo?")  
+	leia(z)
+	limpa()
+	se ((x+y)>z) e ((z+y)>x) e ((x+z)>y) {
+		escreva ("Seu triângulo é valido!")
+		}
+		senao
+		escreva("Seu triângulo não é válido!")
+	}
+}

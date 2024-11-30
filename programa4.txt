@@ -1,0 +1,33 @@
+programa
+{
+	funcao inicio ()
+	{
+		
+		inteiro um, dois, op, resul
+		escreva("Escolha um número:")
+		leia(um)
+		escreva("\nEscolha outro número:")
+		leia(dois)
+		escreva("Escolha a operação deseja realizar(1 para adição,\n2 para subtração, 3 para multiplicação e 4 para divisão):")
+		leia(op)
+		limpa ()
+		
+		se (op == 1) {
+			resul= um + dois
+			escreva ("o resultado é "+resul)
+			}
+			senao se (op== 2) {
+				resul= um - dois
+				escreva("o resultado é "+resul)
+			}
+			senao se (op== 3) {
+				resul = um * dois
+				escreva("o resultado é "+resul)
+			}
+			senao {
+				resul = um/dois
+				escreva("o resultado é "+resul)
+				
+	}
+}
+}
